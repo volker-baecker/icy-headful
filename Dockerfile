@@ -2,7 +2,7 @@
 #
 # run with
 #
-# sudo docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro -v $(pwd):/data baecker/icy-headful
+# docker run -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro -v $(pwd):/data mricnrsfr/icy-headful
 #
 # volker.baecker@mri.cnrs.fr
 
